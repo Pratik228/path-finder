@@ -1,4 +1,3 @@
-```markdown
 # Path Finder
 
 A simple web application that visualizes the shortest path between two points on a grid using the BFS (Breadth-First Search) algorithm.
@@ -21,6 +20,7 @@ A simple web application that visualizes the shortest path between two points on
 ### Backend
 
 1. Navigate to the backend directory:
+
 ```
 
 cd backend
@@ -28,6 +28,7 @@ cd backend
 ```
 
 2. Install dependencies:
+
 ```
 
 npm install
@@ -35,16 +36,19 @@ npm install
 ```
 
 3. Start the server:
+
 ```
 
 npm start
 
 ```
+
 The server will run on `http://localhost:7777`.
 
 ### Frontend
 
 1. Navigate to the frontend directory:
+
 ```
 
 cd frontend
@@ -52,6 +56,7 @@ cd frontend
 ```
 
 2. Install dependencies:
+
 ```
 
 npm install
@@ -59,11 +64,13 @@ npm install
 ```
 
 3. Start the development server:
+
 ```
 
 npm run dev
 
 ```
+
 The application will be available at `http://localhost:5173`.
 
 ## How to Use
@@ -80,5 +87,3 @@ The application will be available at `http://localhost:5173`.
 - Returns: `{ path: [[x, y], ...] }` or `{ message: "No Path found" }`
 
 ![alt text](image.png)
-
-```
