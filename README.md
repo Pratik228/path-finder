@@ -1,5 +1,3 @@
-Certainly! Here's a nice, straightforward README.md file for your project:
-
 ```markdown
 # Path Finder
 
